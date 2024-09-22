@@ -10,3 +10,4 @@ Route::get('/auth/register', [LoginRegisterController::class, 'register'])->name
 Route::get('/', function () {
     return view('home'); 
 }); 
+
